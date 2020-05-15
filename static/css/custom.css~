@@ -1,0 +1,109 @@
+body {
+	position: relative;
+	min-height: 100%;
+	min-height: 100vh;
+	font-family: medium-content-sans-serif;
+}
+
+footer {
+	background-color: #000000;
+	font-family: medium-content-sans-serif;
+	'''font-weight: bold;'''
+	padding: 1% 2;
+	color: #ffffff;
+	height: 60px;
+	right: 0;
+	bottom: -60px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+
+li.hoverChange a:hover{
+	color: #fa501f;
+}
+
+.hoverChange2 a:hover{
+	color: #fa501f;
+}
+
+.navbar-default {
+	background-color: #000000;
+	font-family: medium-content-sans-serif;
+	'''font-weight: bold;'''
+	padding: 1% 2; 
+	color: #ffffff;
+}
+
+.nav-link {
+	color: #ffffff
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 200px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Add a hover effect if you want */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: #111111;
+  color: white;
+  }
+
+/* Twitter */
+.fa-twitter {
+  background: #111111;
+  color: white;
+}
+
+
+'''contact form: '''
+
+
+.md-form.form-orange {
+	outline: 0;
+'''	outline-color: #fa501f !important;'''
+
+}
+.btn-orange:hover{
+	background: #fa501f
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 3px; /* Add a top margin */
+  margin-bottom: 15px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=text]:focus{
+  border-color: #111111;
+  box-shadow: none;
+  outline: 0 none;
+}
+.btn-orange{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.flash {
+	color: #fa501f;
+}
+
+
+
+
+
